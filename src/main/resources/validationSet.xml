@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<validationset>
+    <validation>
+        <xpath>/ab/cd/fg/@hi</xpath>
+        <value>regex_value</value>
+        <optional>false</optional>
+        <threshold>1.2</threshold>
+    </validation>
+    <validation>
+        <xpath>/sdfsaf/asdfas</xpath>
+        <literalvalue>asl&lt;k);afsk</literalvalue>
+    </validation>
+    <validation>
+        <xpath>//sdfsd[@sdfs]</xpath>
+        <var_set>var1</var_set>
+    </validation>
+    <validation>
+        <header>test.header</header>
+        <value>test_value</value>
+    </validation>
+    <validation>
+        <xpath>/sdjkflsdfj/sdfsdf</xpath>
+        <children>childalsdll</children>
+    </validation>
+</validationset>
